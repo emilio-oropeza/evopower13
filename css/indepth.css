@@ -1,0 +1,51 @@
+.indepth_share{
+		position: fixed;
+		right: 3px;
+		top: 8px;
+		z-index: 200;		
+	}
+	
+	.indepth_share_item{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: rgba(0, 0, 0, 0.4);
+		float: left;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
+	}
+	
+	.indepth_share_item.facebook{
+		background-image: url(../images/share/boton_facebook.png);
+	}
+	
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
+	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/share/boton_twitter.png);
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		background-image: url(../images/share/boton_whatsapp.png);
+		display: none;
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+
+@media screen and (max-width: 440px) {
+	.indepth_share_item.whatsapp{
+		display: table;
+	}
+}

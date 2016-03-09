@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,900' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet" type="text/css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.waypoints.js"></script>
+		<style>
+			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+				border: 0 none;
+				font-size: 100%;
+				margin: 0;
+				outline: 0 none;
+				padding: 0;
+				vertical-align: baseline;
+			}
+		</style>
+		<script type="text/javascript">
+			urlIndepth = "";
+		</script>
+		<script type="text/javascript">
+			if(typeof(sharePopUp) != "function"){
+				function sharePopUp(social, url) {
+					var height = 0;
+					var width = 0;
+					var sn = "";
+					if(social == "fb"){ 
+						height = 370;
+						width = 580;
+					}else if(social == "tw"){
+						height = 220;
+						width = 580;
+					}else if(social == "pin"){
+						height = 480;
+						width = 420;
+					}
+					//clickstats(, , , social);
+					/*if(shareWindow != undefined && shareWindow.closed == false){
+						shareWindow.close();
+					}*/
+					shareWindow = window.open(url, "shareUrl", "status=0,height="+height+",width="+width+",resizable=0,menubar=0");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<link type="text/css" rel="stylesheet" href="css/fonts.css"/>
+		<link type="text/css" rel="stylesheet" href="css/indepth.css"/>
+		<div id="indepth_content" >
+			<div>
+				hola
+			</div>
+			<div class="indepth_share">
+				<a href="javascript:sharePopUp('fb', 'https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fs%3D100%26p%5Burl%5D%3Dhttp%3A%2F%2Fjuanfutbol.com');"><div class="indepth_share_item facebook"></div></a>
+				<a href="javascript:sharePopUp('tw', 'https%3A%2F%2Ftwitter.com%2Fshare%3Fvia%3Djuanfutbol%26text%3D%26url%3Dhttp%3A%2F%2Fjuanfutbol.com');"><div class="indepth_share_item twitter"></div></a>
+				<a href="whatsapp://send?text=http%3A%2F%2Fjuanfutbol.com"  target="_blank"><div class="indepth_share_item whatsapp"></div></a>					
+			</div>			
+		</div>
+		<div id="indepth_footer"></div>
+		<script src="js/jquery.waypoints.js"></script>	
+		<script src="js/indepth.js"></script>	
+	</body>
+</html>
