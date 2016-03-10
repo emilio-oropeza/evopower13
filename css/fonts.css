@@ -3,3 +3,39 @@
    font-family: "Geogrotesque";
    src: url("../fonts/Geogrotesque Regular.otf") format("opentype");
 }
+
+@font-face
+{
+	font-family: "Geogrotesque-Medium";
+	src: url("../fonts/Geogtq-Md.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-RegularIt";
+	src: url("../fonts/Geog-RgIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-MediumIt";
+	src: url("../fonts/Geog-MdIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-SemiboldIt";
+	src: url("../fonts/Geog-SbIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-Semibold";
+	src: url("../fonts/Geogtq-Sb.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-Bold";
+	src: url("../fonts/Geogtq-Bd.otf") format("opentype");
+}
