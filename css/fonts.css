@@ -33,3 +33,9 @@
 	font-family: "Geogrotesque-Semibold";
 	src: url("../fonts/Geogtq-Sb.otf") format("opentype");
 }
+
+@font-face
+{
+	font-family: "Geogrotesque-Bold";
+	src: url("../fonts/Geogtq-Bd.otf") format("opentype");
+}
