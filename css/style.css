@@ -9,7 +9,6 @@
 #intro_text_content {
 	position: relative;
 	top: 400px;
-	left: 400px;
 }
 
 #intro_text {
@@ -32,19 +31,17 @@
 
 #caracteristicas_col_izq {
 	width: 200px;
-	float: left;
+	float: right;
 	margin: 0 20px;
 	position: relative;
-	left: 950px;
 	top: 470px;
 }
 
 #caracteristicas_col_der {
-	width: 450px;
-	float: left;
+	width: 200px;
+	float: right;
 	margin: 0 20px;
 	position: relative;
-	left: 960px;
 	top: 470px;
 }
 
@@ -79,19 +76,19 @@
 #elige_potencia img {
 	position: relative;
 	top: 230px;
-	left: 500px;
+	left: 0px;
 }
 
 #titulo_elige {
 	position: relative;
 	top: -320px;
-	right: -370px;
+	right: -330px;
 }
 
 #potencia_text {
 	position: relative;
 	top: -30px;
-	right: -900px;
+	right: -410px;
 	font-family: "Geogrotesque";
 	font-size: 24px;
 	color: #4f4f4f;
@@ -111,9 +108,8 @@
 	text-align: center;
 	color: #ffffff;
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 14px;
 	position: relative;
-	left: 450px;
 	font-family: "Geogrotesque-Medium";
 	font-size: 18px;
 }
@@ -139,31 +135,33 @@
 }
 
 #titulo {
-	color: #4f4f4f;
-	font-family: "Geogrotesque";
-	font-size: 24px;
-	position: relative;
-	top: 7px;
-	left: 855px;
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 24px;
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
 }
-
+#titulo_embajadores {
+    width: 100%;
+    height: 40px;
+}
 .linea_titulo {
-	border-bottom:  solid #4f4f4f 2px;
-	width: 360px;
+    border-bottom: solid #4f4f4f 2px;
+    width: 360px;
+    float: left;
+    display: inline-block;
 }
-
 #linea_izq {
-	position: relative;
-	left: 480px;
-	top: 20px;
+    position: relative;
+    top: 20px;
 }
-
 #linea_der {
-	position: relative;
-	left: 1020px;
-	top: -10px;
+    position: relative;
+    top: 20px;
 }
-
 #cesc {
 	background: url(../images/cesc/cesc.jpg) no-repeat;
 	background-size: auto 100%;
@@ -175,7 +173,6 @@
 #cesc_text {
 	position: relative;
 	top: 200px;
-	left: 600px;
 	color: #4f4f4f;
 	font-family: "Geogrotesque";
 	font-size: 24px;
@@ -192,13 +189,13 @@
 #open {
 	position: relative;
 	top: -114px;
-	left: 650px;
+	left: 50px;
 }
 
 #close {
 	position: relative;
 	top: 40px;
-	left: 1100px;
+	left: 500px;
 }
 
 #zapatos {
@@ -209,11 +206,24 @@
 #title_puma {
 	position: relative;
 	top: 200px;
-	left: 730px;
+	width: 458px;
+	margin: auto;
 }
 
 #img_zapatos {
 	position: relative;
 	top: 400px;
-	left: 500px;
+}
+.indpeht_section{
+	overflow: hidden;
+}
+.indpeth_inner{
+	position: relative;
+	width: 900px;
+	height: 100%;
+	margin: auto;
+}
+
+@media(max-width: 900px){
+
 }
