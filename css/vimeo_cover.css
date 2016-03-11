@@ -1,0 +1,60 @@
+.vimeo{
+	display:block;
+	width:638px;
+	height:358px; 
+	margin:0 auto;
+	margin-top: -50px;
+	margin-left: -75px;
+}
+
+.vimeoFrame {width:638px; height:358px; overflow:hidden; margin:0 auto;}
+
+.land{
+	fill: red;
+	fill-opacity: 1;
+	stroke:white;
+	stroke-opacity: 1;
+	stroke-width:0.5;
+	
+}
+
+#indepth_page7{
+	background-color: #B8D9D2;
+}
+
+.indepth_img_title {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    top: 0;
+    margin: auto;
+    height: 80px;
+}
+#indepth_cover .indepth_parallax_back {
+    background-size: auto 100%;
+    background-position: center center;
+}
+.indepth_parallax_back {
+    height: 100%;
+    background-size: cover;
+    background-color: #000;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+.vimeoFrame {
+    width: 638px;
+    height: 358px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+@media(max-width: 600px){
+	.indepth_img_title img {
+	    width: 300px;
+	}
+	.indepth_img_title {
+	    height: 40px;
+	}
+}
