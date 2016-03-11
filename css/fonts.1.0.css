@@ -1,0 +1,41 @@
+@font-face
+{
+   font-family: "Geogrotesque";
+   src: url("http://juanfutbol.com/fonts/evopower/Geogrotesque Regular.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-Medium";
+	src: url("http://juanfutbol.com/fonts/evopower/Geogtq-Md.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-RegularIt";
+	src: url("http://juanfutbol.com/fonts/evopower/Geog-RgIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-MediumIt";
+	src: url("http://juanfutbol.com/fonts/evopower/Geog-MdIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-SemiboldIt";
+	src: url("http://juanfutbol.com/fonts/evopower/Geog-SbIt.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-Semibold";
+	src: url("http://juanfutbol.com/fonts/evopower/Geogtq-Sb.otf") format("opentype");
+}
+
+@font-face
+{
+	font-family: "Geogrotesque-Bold";
+	src: url("http://juanfutbol.com/fonts/evopower/Geogtq-Bd.otf") format("opentype");
+}
