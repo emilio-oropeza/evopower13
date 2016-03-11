@@ -259,10 +259,8 @@
 
 #image_break {
 	height: 550px;
+    background-attachment: scroll;
 }
-
-
-
 #elige_potencia {
     background: url(../images/potencia/Elige_Potencia.jpg) no-repeat;
     background-size: auto 100%;
@@ -593,7 +591,6 @@
 
     #image_break {
         height: 550px;
-        background-attachment: scroll;
     }
 
     #caracteristicas {
