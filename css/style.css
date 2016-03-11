@@ -63,6 +63,7 @@
 	background-position: center;
 	background-color: #000;
 	width: auto;
+	height: 770px;
 }
 
 #elige_potencia {
@@ -73,16 +74,16 @@
 	width: auto;
 }
 
-#elige_potencia img {
+#linea {
 	position: relative;
 	top: 230px;
 	left: 0px;
 }
 
-#titulo_elige {
+#titulo_elige img{
 	position: relative;
-	top: -320px;
-	right: -330px;
+    top: -90px;
+    right: -350px;
 }
 
 #potencia_text {
@@ -102,6 +103,7 @@
 
 #embajadores_content {
 	background-color: #000000;
+	height: auto;
 }
 
 .embajador {
@@ -150,7 +152,7 @@
 }
 .linea_titulo {
     border-bottom: solid #4f4f4f 2px;
-    width: 360px;
+    width: 359px;
     float: left;
     display: inline-block;
 }
@@ -216,6 +218,7 @@
 }
 .indpeht_section{
 	overflow: hidden;
+	height: 1008px;
 }
 .indpeth_inner{
 	position: relative;
@@ -224,6 +227,853 @@
 	margin: auto;
 }
 
-@media(max-width: 900px){
+@media(max-width: 900px) {
+	
+.indpeth_inner {
+	position: relative;
+	width: 700px;
+	height: 100%;
+	margin: auto;
+}
 
+#intro_text {
+    color: #eff1f4;
+    font-size: 20px;
+    font-family: "Geogrotesque-RegularIt";
+}
+
+#caracteristicas {
+    background: url(../images/caracteristicas/Caracteristicas.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+}
+
+.caracteristics_text {
+    font-family: "Geogrotesque";
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+#image_break {
+	height: 550px;
+}
+
+#elige_potencia .indpeth_inner {
+	margin-right: 20px;
+}
+
+#elige_potencia {
+    background: url(../images/potencia/Elige_Potencia.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+    height: 580px;
+}
+
+#potencia_text {
+    position: relative;
+    top: -60px;
+    left: 250px;
+    font-family: "Geogrotesque";
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+#titulo_elige img {
+	position: relative;
+    top: -80px;
+    left: 220px;
+    width: 400px;
+    height: 160px;
+}
+
+#linea {
+	position: relative;
+    top: 130px;
+    left: 0px;
+    height: 170px;
+    width: 245px;
+}
+
+#linea_izq {
+    position: relative;
+    top: 20px;
+    width: 272px;
+}
+
+#linea_der {
+    position: relative;
+    top: 20px;
+    width: 272px;
+}
+
+#titulo {
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
+}
+
+.embajador {
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px 14px;
+    position: relative;
+    left: 85px;
+    font-family: "Geogrotesque-Medium";
+    font-size: 18px;
+}
+
+#giroud {
+    color: #6fb6af;
+    position: relative;
+    left: 165px;
+}
+
+#balotelli {
+    color: #6faecb;
+    position: relative;
+    left: 175px;
+}
+
+#cesc {
+    background: url(../images/cesc/cesc.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    background-color: #000;
+    width: auto;
+}
+
+#cesc .indpeth_inner {
+	margin-right: 0px;
+}
+
+#potencia_text span {
+    font-family: "Geogrotesque-Semibold";
+    font-size: 22px;
+    color: #4f4f4f;
+ }
+
+ #cesc_text {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 22px;
+    text-align: right;
+    width: 500px;
+}
+
+#open {
+    position: relative;
+    top: -87px;
+    left: 225px;
+}
+
+#open img {
+	width: 50px;
+	height: auto;
+}
+
+#close img {
+	width: 50px;
+	height: auto;
+}
+
+#close {
+    position: relative;
+    top: 58px;
+    left: 633px;
+}
+
+#img_zapatos {
+    position: relative;
+    top: 400px;
+}
+
+#zapatos .indpeth_inner{
+	position: relative;
+    width: 700px;
+    height: 100%;
+    margin: auto;
+    margin-left: 40px;
+}
+
+#img_zapatos img {
+	width: 830px;
+	height: auto;
+}
+}
+
+@media(max-width: 700px) {
+	.indpeth_inner {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+
+#elige_potencia .indpeth_inner {
+    margin-left: 80px;
+}
+
+#titulo_elige img {
+    position: relative;
+    top: -60px;
+    left: 220px;
+    width: 370px;
+    height: 140px;
+}
+
+#potencia_text span {
+    font-family: "Geogrotesque-Semibold";
+    font-size: 20px;
+    color: #4f4f4f;
+}
+
+#potencia_text {
+    position: relative;
+    top: -35px;
+    left: 250px;
+    font-family: "Geogrotesque";
+    font-size: 16px;
+    color: #4f4f4f;
+ }
+
+#linea_izq {
+    position: relative;
+    top: 20px;
+    width: 172px;
+}
+
+#linea_der {
+    position: relative;
+    top: 20px;
+    width: 172px;
+}
+
+.embajador {
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px 8px;
+    position: relative;
+    left: 0px;
+    font-family: "Geogrotesque-Medium";
+    font-size: 18px;
+}
+
+#giroud {
+    color: #6fb6af;
+    position: relative;
+    left: 75px;
+}
+
+#balotelli {
+    color: #6faecb;
+    position: relative;
+    left: 85px;
+}
+
+#cesc {
+    background: url(../images/cesc/cesc.jpg) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    background-color: #000;
+    width: auto;
+}
+
+#cesc .indpeth_inner {
+    margin-left: 15px;
+}
+
+#cesc_text span {
+    color: #4f4f4f;
+    font-family: "Geogrotesque-Bold";
+    font-size: 20px;
+}
+
+#open {
+    position: relative;
+    top: -50px;
+    left: 273px;
+}
+
+#open img {
+    width: 45px;
+    height: auto;
+}
+
+#close img {
+    width: 45px;
+    height: auto;
+}
+
+#cesc_text {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 19px;
+    text-align: right;
+    width: 500px;
+}
+
+#close {
+    position: relative;
+    top: 73px;
+    left: 633px;
+}
+
+#title_puma {
+    position: relative;
+    width: 458px;
+    margin: auto;
+    top: 0px;
+}
+
+#img_zapatos img {
+    width: 695px;
+    height: auto;
+}
+
+#img_zapatos {
+    position: relative;
+    top: 50px;
+}
+
+#zapatos.indpeht_section {
+	height: 650px;
+}
+
+#zapatos .indpeth_inner {
+    position: relative;
+    width: 700px;
+    height: 100%;
+    margin: auto;
+    margin-left: 0px;
+}
+}
+
+@media(max-width: 500px) {
+#intro_text {
+    color: #eff1f4;
+    font-size: 16px;
+    font-family: "Geogrotesque-RegularIt";
+}
+
+#intro.indpeht_section {
+    overflow: hidden;
+    height: 720px;
+}
+
+#intro_text_content {
+    position: relative;
+    top: 300px;
+}
+
+.indpeth_inner {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    margin-left: 50px;
+}
+
+#caracteristicas .indpeth_inner {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    margin-left: 80px;
+}
+
+#caracteristicas_col_izq {
+    width: 200px;
+    float: right;
+    margin: 0 0px;
+    position: relative;
+    top: 290px;
+}
+
+#caracteristicas_col_der {
+    width: 200px;
+    float: right;
+    margin: 0 0px;
+    position: relative;
+    top: 290px;
+}
+
+#image_break {
+    height: 550px;
+}
+
+#caracteristicas {
+    background: url(../images/caracteristicas/Caracteristicas.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+    overflow: hidden;
+    height: 733px;
+}
+
+#caracteristicas .indpeth_inner {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    margin-left: 90px;
+}
+
+.caracteristics_text span {
+    font-family: "Geogrotesque-SemiboldIt";
+    color: #4f4f4f;
+    font-size: 19px;
+}
+
+#image_break {
+    height: 400px;
+}
+
+#elige_potencia {
+    background: url(../images/potencia/Elige_Potencia.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+    height: 350px;
+}
+
+#linea {
+    position: relative;
+    top: 75px;
+    left: 0px;
+    height: 100px;
+    width: 160px;
+}
+
+#titulo_elige img {
+    position: relative;
+    top: -60px;
+    left: 145px;
+    width: 270px;
+    height: 100px;
+}
+
+#elige_potencia .indpeth_inner {
+    margin-left: 80px;
+}
+
+#titulo_elige img {
+    position: relative;
+    top: -60px;
+    left: 145px;
+    width: 270px;
+    height: 100px;
+}
+
+#potencia_text {
+    position: relative;
+    top: -45px;
+    left: 165px;
+    font-family: "Geogrotesque";
+    font-size: 12px;
+    color: #4f4f4f;
+}
+
+#potencia_text span {
+    font-family: "Geogrotesque-Semibold";
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+.embajador img {
+	width: 100px;
+	height: auto;
+}
+
+#embajadores_content .indpeth_inner {
+    position: relative;
+    width: 380px;
+    height: 100%;
+    margin: auto;
+}
+
+#giroud {
+    color: #6fb6af;
+    position: relative;
+    left: 62px;
+}
+
+#balotelli {
+    color: #6faecb;
+    position: relative;
+    left: 77px;
+}
+
+#titulo {
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 16px;
+    position: relative;
+    top: 13px;
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
+}
+
+#linea_der {
+    position: relative;
+    top: 20px;
+    width: 124px;
+}
+
+#linea_izq {
+    position: relative;
+    top: 20px;
+    width: 124px;
+}
+
+#cesc {
+    background: url(../images/cesc/cesc.jpg) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    background-color: #000;
+    width: auto;
+    height: 730px;
+}
+
+#cesc .indpeth_inner {
+    margin-left: -107px;
+}
+
+#cesc_text span {
+    color: #4f4f4f;
+    font-family: "Geogrotesque-Bold";
+    font-size: 18px;
+}
+
+#cesc_text {
+    position: relative;
+    top: 180px;
+    left: 295px;
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 14px;
+    text-align: right;
+    width: 270px;
+}
+
+#open {
+    position: relative;
+    top: -18px;
+    left: 302px;
+}
+
+#close {
+    position: relative;
+    top: 75px;
+    left: 563px;
+}
+
+#open img {
+    width: 35px;
+    height: auto;
+}
+
+#close img {
+    width: 35px;
+    height: auto;
+}
+
+#title_puma img {
+	width: 320px;
+    height: 60px;
+}
+
+#title_puma {
+    position: relative;
+    width: 458px;
+    margin: auto;
+    top: 0px;
+    margin-left: 90px;
+}
+
+#img_zapatos img {
+    width: 490px;
+    height: auto;
+}
+
+#zapatos.indpeht_section {
+    height: 450px;
+}
+}
+
+@media(max-width: 320px) {
+#intro.indpeht_section {
+    overflow: hidden;
+    height: 500px;
+}
+
+.indpeth_inner {
+    position: relative;
+    width: 300px;
+    height: 200%;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#intro_text_content {
+    position: relative;
+    top: 200px;
+}
+
+#intro_text {
+    color: #eff1f4;
+    font-size: 12px;
+    font-family: "Geogrotesque-RegularIt";
+}
+
+#caracteristicas {
+    background: url(../images/caracteristicas/Caracteristicas.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+    overflow: hidden;
+    height: 513px;
+}
+
+#caracteristicas .indpeth_inner {
+    position: relative;
+    width: 390px;
+    height: 100%;
+    margin: auto;
+    margin-left: 40px;
+}
+
+#caracteristicas_col_der img {
+	width: 60px;
+	height: auto;
+}
+
+#caracteristicas_col_der {
+    width: 200px;
+    float: right;
+    margin: 0 0px;
+    position: relative;
+    top: 180px;
+    left: -57px;
+}
+
+.caracteristics_text span {
+    font-family: "Geogrotesque-SemiboldIt";
+    color: #4f4f4f;
+    font-size: 13px;
+}
+
+.caracteristics_text {
+    font-family: "Geogrotesque";
+    color: #4f4f4f;
+    font-size: 10px;
+}
+
+#caracteristicas_col_izq img {
+	width: 60px;
+	height: auto;
+}
+
+#caracteristicas_col_izq {
+    width: 115px;
+    float: right;
+    margin: 0 0px;
+    position: relative;
+    top: 180px;
+    left: -57px;
+}
+
+#image_break {
+    height: 250px;
+}
+
+#elige_potencia {
+    background: url(../images/potencia/Elige_Potencia.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-color: #000;
+    width: auto;
+    height: 250px;
+}
+
+#elige_potencia .indpeth_inner {
+    margin-left: 50px;
+}
+
+#linea {
+    position: relative;
+    top: 68px;
+    left: 0px;
+    height: 80px;
+    width: 90px;
+}
+
+#titulo_elige img {
+    position: relative;
+    top: -30px;
+    left: 95px;
+    width: 170px;
+    height: 65px;
+}
+
+#potencia_text {
+    position: relative;
+    top: -15px;
+    left: 95px;
+    font-family: "Geogrotesque";
+    font-size: 8px;
+    color: #4f4f4f;
+}
+
+#potencia_text span {
+    font-family: "Geogrotesque-Semibold";
+    font-size: 12px;
+    color: #4f4f4f;
+}
+
+#embajadores_content .indpeth_inner {
+    position: relative;
+    width: 260px;
+    height: 100%;
+    margin: auto;
+}
+
+#linea_izq {
+    position: relative;
+    top: 20px;
+    width: 70px;
+}
+
+#titulo {
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 14px;
+    position: relative;
+    top: 13px;
+    display: inline-block;
+    float: left;
+    margin: 0px 15px;
+}
+
+#linea_der {
+    position: relative;
+    top: 20px;
+    width: 70px;
+}
+
+.embajador {
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 8px;
+    position: relative;
+    left: 0px;
+    font-family: "Geogrotesque-Medium";
+    font-size: 14px;
+}
+
+#benedetto {
+	padding-left: 32px;
+}
+
+#giroud {
+    color: #6fb6af;
+    position: relative;
+    left: 21px;
+}
+
+#balotelli {
+    color: #6faecb;
+    position: relative;
+    left: 65px;
+}
+
+#cesc {
+    background: url(../images/cesc/cesc.jpg) no-repeat;
+    background-size: auto 85%;
+    background-position: right;
+    background-color: #000;
+    width: auto;
+    height: 465px;
+}
+
+#open img {
+    width: 20px;
+    height: auto;
+}
+
+#close img {
+    width: 20px;
+    height: auto;
+}
+
+#cesc_text {
+    position: relative;
+    top: 65px;
+    left: 180px;
+    color: #4f4f4f;
+    font-family: "Geogrotesque";
+    font-size: 9px;
+    text-align: right;
+    width: 270px;
+}
+
+#open {
+    position: relative;
+    top: -63px;
+    left: 283px;
+}
+
+#close {
+    position: relative;
+    top: -8px;
+    left: 450px;
+}
+
+#cesc .indpeth_inner {
+    margin-left: -160px;
+}
+
+#title_puma {
+    position: relative;
+    width: 210px;
+    margin: auto;
+    top: 0px;
+    margin-left: 60px;
+}
+
+#img_zapatos img {
+    width: 315px;
+    height: auto;
+}
+
+#zapatos.indpeht_section {
+    height: 300px;
+}
+
+#title_puma img {
+    width: 210px;
+    height: 40px;
+}
+}
 }
